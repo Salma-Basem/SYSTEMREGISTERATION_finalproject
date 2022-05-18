@@ -96,13 +96,13 @@ namespace Regestration
         protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
-        /// txt_ln1 control.
+        /// txt_e control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_ln1;
+        protected global::System.Web.UI.WebControls.TextBox txt_e;
 
         /// <summary>
         /// Label6 control.
@@ -114,13 +114,13 @@ namespace Regestration
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// txt_ln2 control.
+        /// txt_phone control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_ln2;
+        protected global::System.Web.UI.WebControls.TextBox txt_phone;
 
         /// <summary>
         /// Label8 control.
@@ -132,13 +132,13 @@ namespace Regestration
         protected global::System.Web.UI.WebControls.Label Label8;
 
         /// <summary>
-        /// DropDownList1 control.
+        /// DDP control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList DDP;
 
         /// <summary>
         /// Label9 control.
@@ -150,13 +150,13 @@ namespace Regestration
         protected global::System.Web.UI.WebControls.Label Label9;
 
         /// <summary>
-        /// txt_ln3 control.
+        /// txt_UN control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_ln3;
+        protected global::System.Web.UI.WebControls.TextBox txt_UN;
 
         /// <summary>
         /// Label10 control.
@@ -168,13 +168,13 @@ namespace Regestration
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// txt_ln4 control.
+        /// txt_PASS control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_ln4;
+        protected global::System.Web.UI.WebControls.TextBox txt_PASS;
 
         /// <summary>
         /// Label11 control.
@@ -186,13 +186,13 @@ namespace Regestration
         protected global::System.Web.UI.WebControls.Label Label11;
 
         /// <summary>
-        /// txt_ln5 control.
+        /// txt_RETYPE control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_ln5;
+        protected global::System.Web.UI.WebControls.TextBox txt_RETYPE;
 
         /// <summary>
         /// Button1 control.

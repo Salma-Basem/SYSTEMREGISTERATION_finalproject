@@ -39,7 +39,7 @@
             </tr>
             <tr>
                 <td class="auto-style5">
-                    <asp:TextBox ID="txt_fn" runat="server" Height="27px" Width="346px"></asp:TextBox>
+                    <asp:TextBox ID="txt_fn" runat="server" BorderColor="Black" Height="27px" Width="346px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -57,7 +57,7 @@
             </tr>
             <tr>
                 <td class="auto-style5">
-                    <asp:TextBox ID="txt_ln" runat="server" Height="27px" Width="346px"></asp:TextBox>
+                    <asp:TextBox ID="txt_ln" runat="server" BorderColor="Black" BorderStyle="Solid" Height="27px" Width="346px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -96,7 +96,7 @@
             </tr>
             <tr>
                 <td class="auto-style5">
-                    <asp:TextBox ID="txt_ln1" runat="server" Height="27px" Width="346px"></asp:TextBox>
+                    <asp:TextBox ID="txt_e" runat="server" BorderColor="Black" Height="27px" Width="346px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -114,7 +114,7 @@
             </tr>
             <tr>
                 <td class="auto-style5">
-                    <asp:TextBox ID="txt_ln2" runat="server" Height="27px" Width="346px"></asp:TextBox>
+                    <asp:TextBox ID="txt_phone" runat="server" BackColor="White" BorderColor="Black" Height="27px" Width="346px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -132,7 +132,7 @@
             </tr>
             <tr>
                 <td class="auto-style5">
-                    <asp:DropDownList ID="DropDownList1" runat="server" Height="16px" Width="349px">
+                    <asp:DropDownList ID="DDP" runat="server" Height="16px" Width="349px">
                         <asp:ListItem></asp:ListItem>
                         <asp:ListItem>Egypt</asp:ListItem>
                         <asp:ListItem>Jordan</asp:ListItem>
@@ -155,7 +155,7 @@
             </tr>
             <tr>
                 <td class="auto-style5">
-                    <asp:TextBox ID="txt_ln3" runat="server" Height="27px" Width="346px"></asp:TextBox>
+                    <asp:TextBox ID="txt_UN" runat="server" BorderColor="Black" Height="27px" Width="346px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -173,7 +173,7 @@
             </tr>
             <tr>
                 <td class="auto-style5">
-                    <asp:TextBox ID="txt_ln4" runat="server" Height="27px" Width="346px"></asp:TextBox>
+                    <asp:TextBox ID="txt_PASS" runat="server" BorderColor="Black" Height="27px" Width="346px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -191,7 +191,7 @@
             </tr>
             <tr>
                 <td class="auto-style5">
-                    <asp:TextBox ID="txt_ln5" runat="server" Height="27px" Width="346px"></asp:TextBox>
+                    <asp:TextBox ID="txt_RETYPE" runat="server" BorderColor="Black" Height="27px" Width="346px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -203,7 +203,7 @@
             </tr>
             <tr>
                 <td colspan="5">
-                    <asp:Button ID="Button1" runat="server" CssClass="auto-style6" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="X-Large" Height="50px" Text="Submit " Width="263px" />
+                    <asp:Button ID="Button1" runat="server" BackColor="#999999" BorderStyle="Double" CssClass="auto-style6" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="X-Large" Height="50px" Text="Submit " Width="263px" />
 &nbsp;</td>
             </tr>
         </table>
