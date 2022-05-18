@@ -76,6 +76,7 @@
     </Content>
     <Content Include="attendence.aspx" />
     <Content Include="Background.aspx" />
+    <Content Include="BlurBackground.html" />
     <Content Include="ComputerArchticrure.aspx" />
     <Content Include="coursepage.aspx" />
     <Content Include="Footer.html" />
