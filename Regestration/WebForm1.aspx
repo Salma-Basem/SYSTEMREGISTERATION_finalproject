@@ -4,29 +4,40 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            height: 673px;
+    <title>DDP</title>
+    <style type ="text/css">
+        #nav
+        {
+            margin:0px;
         }
-        .auto-style2 {
-            width: 100%;
+
+         #nav ul
+        {
+            padding:0px;
+            list-style:none;
+        }
+
+          #nav ul li
+        {
+            float:left;
+            text-align:left;
+            width:120px;
+            margin:1px;
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="auto-style1" style="background-image: url('webImages/205-2057548_full-hd-blur-background.jpg')">
-            <table class="auto-style2">
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-            </table>
+        <div id="nav">
+            <ul>
+                <li><a href ="HomeWeb.html">Home</a></li>
+                  <li><a href ="Newevents.html">New Events</a></li>
+                  <li><a href ="personSignUP.aspx">Sign UP</a></li>
+                 <ul>
+                <li><a href ="personSignUP.aspx">STUDENT SIGN UP</a></li>
+                     <li><a href ="personSignUP.aspx">STAFF SIGN UP</a></li>
+                     </ul>
+            </ul>
         </div>
     </form>
 </body>

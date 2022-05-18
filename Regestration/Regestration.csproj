@@ -97,12 +97,10 @@
     <Content Include="Registration.aspx" />
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
-    <Content Include="SignUP.aspx" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
     <Content Include="WebForm1.aspx" />
-    <Content Include="WebForm2.aspx" />
     <Content Include="webImages.html" />
     <Content Include="webImages\205-2057548_full-hd-blur-background.jpg" />
     <Content Include="webImages\Banner-FUE-Europe-cole2short.jpg" />
@@ -188,13 +186,6 @@
     <Compile Include="schedule.aspx.designer.cs">
       <DependentUpon>schedule.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SignUP.aspx.cs">
-      <DependentUpon>SignUP.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SignUP.aspx.designer.cs">
-      <DependentUpon>SignUP.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Studentprofile.aspx.cs">
       <DependentUpon>Studentprofile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -215,13 +206,6 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
     <Compile Include="webIndex.aspx.cs">
       <DependentUpon>webIndex.aspx</DependentUpon>
