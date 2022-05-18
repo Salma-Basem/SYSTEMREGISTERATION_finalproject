@@ -91,11 +91,11 @@
     <Content Include="logo2.html" />
     <Content Include="logo3.html" />
     <Content Include="logo4.html" />
+    <Content Include="NAVIGATION.html" />
     <Content Include="Newevents.html" />
     <Content Include="Registration.aspx" />
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
-    <Content Include="SignaUpp.aspx" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
@@ -174,13 +174,6 @@
     </Compile>
     <Compile Include="schedule.aspx.designer.cs">
       <DependentUpon>schedule.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SignaUpp.aspx.cs">
-      <DependentUpon>SignaUpp.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SignaUpp.aspx.designer.cs">
-      <DependentUpon>SignaUpp.aspx</DependentUpon>
     </Compile>
     <Compile Include="Studentprofile.aspx.cs">
       <DependentUpon>Studentprofile.aspx</DependentUpon>

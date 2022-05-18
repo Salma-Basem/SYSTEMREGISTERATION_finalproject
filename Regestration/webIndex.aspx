@@ -25,6 +25,12 @@
             width: 866px;
             height: 98px;
         }
+        .auto-style17 {
+            width: 218px;
+        }
+        .auto-style18 {
+            width: 167px;
+        }
         </style>
 </head>
 <body>
@@ -77,6 +83,34 @@
                 </tr>
                 </table>
         </div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style17" style="border-style: solid; border-width: thin">
+                        <asp:Image ID="Image2" runat="server" Height="172px" ImageUrl="~/webImages/FUE LOGO.jpg" Width="175px" />
+                    </td>
+                <td class="auto-style18" style="background-color: #669999">
+                        <asp:Label ID="Label6" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="Black" Text="About Us"></asp:Label>
+                        <br />
+                        <asp:DropDownList ID="DropDownList6" runat="server" Height="16px" Width="144px">
+                            <asp:ListItem></asp:ListItem>
+                            <asp:ListItem Value="Admission Requirements">Overview</asp:ListItem>
+                            <asp:ListItem>Contact Us</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                <td style="background-color: #669999">
+                        <asp:Label ID="Label7" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="Black" Text="Admission"></asp:Label>
+                        <br />
+                        <asp:DropDownList ID="DropDownList7" runat="server">
+                            <asp:ListItem></asp:ListItem>
+                            <asp:ListItem Value="Admission Requirements">Admission Requirements</asp:ListItem>
+                            <asp:ListItem>Admission Regulations</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                <td style="background-color: #669999">&nbsp;</td>
+                <td style="background-color: #669999">&nbsp;</td>
+                <td style="background-color: #669999">&nbsp;</td>
+            </tr>
+        </table>
     </form>
 </body>
 </html>
