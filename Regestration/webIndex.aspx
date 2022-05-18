@@ -10,7 +10,7 @@
             width: 100%;
         }
         .auto-style3 {
-            width: 194px;
+            width: 235px;
             height: 98px;
         }
         .auto-style5 {
@@ -33,7 +33,7 @@
             <table class="auto-style1" style="background-color: #C0C0C0; background-image: inherit; border-style: double; border-width: medium">
                 <tr>
                     <td class="auto-style3">
-                        <asp:Image ID="Image1" runat="server" Height="126px" ImageUrl="~/webImages/FUE LOGO.jpg" Width="123px" />
+                        <asp:Image ID="Image1" runat="server" Height="172px" ImageUrl="~/webImages/FUE LOGO.jpg" Width="175px" />
                     </td>
                     <td class="auto-style16">
                         <asp:Label ID="Label5" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="Black" Text="About Us"></asp:Label>
@@ -54,7 +54,7 @@
                         </asp:DropDownList>
                     </td>
                     <td class="auto-style13">
-                        <asp:HyperLink ID="HyperLink2" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="#000066" NavigateUrl="~/SignaUpp.aspx">Sign Up</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink2" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="#000066" NavigateUrl="~/SignaUpp.aspx" Target="_blank">Sign Up</asp:HyperLink>
                         <br />
                         <br />
                     </td>
@@ -72,7 +72,7 @@
                     </td>
                     <td class="auto-style5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <br />
-                        <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="#000066" NavigateUrl="~/SignaUpp.aspx">Sign Up</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="#000066" NavigateUrl="~/SignaUpp.aspx" Target="_blank">Sign Up</asp:HyperLink>
                     </td>
                 </tr>
                 </table>
