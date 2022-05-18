@@ -88,7 +88,7 @@
                     <asp:Label ID="Label1" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="First Name"></asp:Label>
                 </td>
                 <td class="auto-style9">
-                    <asp:TextBox ID="TxtFname" runat="server" OnTextChanged="TxtFname_TextChanged"></asp:TextBox>
+                    <asp:TextBox ID="TxtFname" runat="server" OnTextChanged="TxtFname_TextChanged" Height="27px" Width="323px"></asp:TextBox>
                     <br />
                     <font face="arial"color="#00FF00" size="-1">Example:Ahmed or Abdel Rahman</font>
                     
@@ -108,7 +108,7 @@
                     <asp:Label ID="Label11" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Last Name"></asp:Label>
                 </td>
                 <td class="auto-style10">
-                    <asp:TextBox ID="txtLname" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtLname" runat="server" Height="20px" Width="322px"></asp:TextBox>
                     <br />
                     <font face="arial"color="#00FF00" size="-1">Example:Ahmed or Abdel Rahman</font>
                     
@@ -128,7 +128,7 @@
                     <asp:Label ID="Label12" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="E-mail"></asp:Label>
                 </td>
                 <td class="auto-style12">
-                    <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtEmail" runat="server" Height="22px" Width="319px"></asp:TextBox>
                     <br />
                     <font face="arial"color="#00FF00" size="-1">Example:User@fue.edu.eg</font>
                     <br />
@@ -148,7 +148,7 @@
                     <asp:Label ID="Label13" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="User Name"></asp:Label>
                 </td>
                 <td class="auto-style9">
-                    <asp:TextBox ID="TxtUser" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TxtUser" runat="server" Height="21px" Width="322px"></asp:TextBox>
                     <br />
                     <br />
                 </td>
@@ -166,7 +166,7 @@
                     <asp:Label ID="Label14" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Date of Birth"></asp:Label>
                 </td>
                 <td class="auto-style9">
-                    <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+                    <asp:Calendar ID="Calendar1" runat="server" Height="202px" Width="319px"></asp:Calendar>
                     <br />
                 </td>
                 <td class="auto-style13">
@@ -200,7 +200,8 @@
                     <asp:Label ID="Label15" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Country"></asp:Label>
                 </td>
                 <td class="auto-style9">
-                    <asp:DropDownList ID="ddlCountry" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666">
+                    <asp:DropDownList ID="ddlCountry" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666" Height="38px" Width="325px">
+                        <asp:ListItem></asp:ListItem>
                         <asp:ListItem>Egypt</asp:ListItem>
                         <asp:ListItem>France</asp:ListItem>
                         <asp:ListItem>England </asp:ListItem>
@@ -222,7 +223,7 @@
                     <asp:Label ID="Label16" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Address"></asp:Label>
                 </td>
                 <td class="auto-style9">
-                    <asp:TextBox ID="Txtaddress" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Txtaddress" runat="server" Height="24px" Width="323px"></asp:TextBox>
                     <br />
                     <br />
                 </td>
@@ -238,7 +239,7 @@
                     <asp:Label ID="Label17" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Password"></asp:Label>
                 </td>
                 <td class="auto-style9">
-                    <asp:TextBox ID="TxtPassword" runat="server" TextMode="Password"></asp:TextBox>
+                    <asp:TextBox ID="TxtPassword" runat="server" TextMode="Password" Height="16px" Width="323px"></asp:TextBox>
                     <br />
                     <br />
                 </td>
@@ -256,7 +257,7 @@
                     <asp:Label ID="Label18" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Confirm Password"></asp:Label>
                 </td>
                 <td class="auto-style9">
-                    <asp:TextBox ID="Txtpassword1" runat="server" TextMode="Password"></asp:TextBox>
+                    <asp:TextBox ID="Txtpassword1" runat="server" TextMode="Password" Height="16px" Width="323px"></asp:TextBox>
                     <br />
                     <br />
                 </td>
@@ -274,7 +275,7 @@
                     <asp:Label ID="Label19" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Mobile Number"></asp:Label>
                 </td>
                 <td class="auto-style12">
-                    <asp:TextBox ID="TxtMobile" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TxtMobile" runat="server" Height="16px" Width="326px"></asp:TextBox>
                     <br />
                     <font face="arial"color="#00FF00" size="-1">Example:0122 1234567</font>
                     <br />
