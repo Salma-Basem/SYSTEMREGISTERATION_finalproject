@@ -8,11 +8,15 @@
     <style type="text/css">
         .auto-style4 {
             width: 100%;
-            height: 660px;
+            height: 698px;
             background-image: url('webImages/205-2057548_full-hd-blur-background.jpg');
         }
         .auto-style5 {
             width: 431px;
+        }
+        .auto-style6 {
+            margin-left: 521px;
+            margin-top: 18px;
         }
     </style>
 </head>
@@ -20,8 +24,8 @@
     <form id="form1" runat="server">
         <table class="auto-style4">
             <tr>
-                <td colspan="5">
-                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="XX-Large" ForeColor="White" Text="Sign Up Form Application:"></asp:Label>
+                <td colspan="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="XX-Large" ForeColor="White" Text="Sign Up Form Application"></asp:Label>
                 </td>
             </tr>
             <tr>
@@ -157,6 +161,50 @@
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+                    <asp:Label ID="Label10" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="Medium" ForeColor="White" Text="Password:"></asp:Label>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+                    <asp:TextBox ID="txt_ln4" runat="server" Height="27px" Width="346px"></asp:TextBox>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+                    <asp:Label ID="Label11" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="Medium" ForeColor="White" Text="Retype Password:"></asp:Label>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+                    <asp:TextBox ID="txt_ln5" runat="server" Height="27px" Width="346px"></asp:TextBox>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="5">&nbsp;&nbsp; &nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <asp:Button ID="Button1" runat="server" CssClass="auto-style6" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="X-Large" Height="50px" Text="Submit " Width="263px" />
+&nbsp;</td>
             </tr>
         </table>
     </form>

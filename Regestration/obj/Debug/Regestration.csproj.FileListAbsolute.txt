@@ -119,3 +119,4 @@ D:\SYSTEMREGISTERATION_finalproject\Regestration\obj\Debug\Regestration.csproj.C
 D:\SYSTEMREGISTERATION_finalproject\Regestration\obj\Debug\Regestration.csproj.CopyComplete
 D:\SYSTEMREGISTERATION_finalproject\Regestration\obj\Debug\Regestration.dll
 D:\SYSTEMREGISTERATION_finalproject\Regestration\obj\Debug\Regestration.pdb
+D:\SYSTEMREGISTERATION_finalproject\Regestration\obj\Debug\Regestration.csprojAssemblyReference.cache
