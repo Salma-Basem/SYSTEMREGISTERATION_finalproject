@@ -115,7 +115,6 @@ D:\SYSTEMREGISTERATION_finalproject\Regestration\bin\Microsoft.CodeDom.Providers
 D:\SYSTEMREGISTERATION_finalproject\Regestration\bin\System.Data.SqlClient.dll
 D:\SYSTEMREGISTERATION_finalproject\Regestration\bin\System.Data.SqlClient.xml
 D:\SYSTEMREGISTERATION_finalproject\Regestration\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\SYSTEMREGISTERATION_finalproject\Regestration\obj\Debug\Regestration.csprojAssemblyReference.cache
 D:\SYSTEMREGISTERATION_finalproject\Regestration\obj\Debug\Regestration.csproj.CoreCompileInputs.cache
 D:\SYSTEMREGISTERATION_finalproject\Regestration\obj\Debug\Regestration.csproj.CopyComplete
 D:\SYSTEMREGISTERATION_finalproject\Regestration\obj\Debug\Regestration.dll

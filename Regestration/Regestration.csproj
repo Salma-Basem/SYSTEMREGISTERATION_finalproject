@@ -93,17 +93,22 @@
     <Content Include="logo4.html" />
     <Content Include="NAVIGATION.html" />
     <Content Include="Newevents.html" />
+    <Content Include="personSignUP.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
+    <Content Include="SignUP.aspx" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
     <Content Include="WebForm2.aspx" />
     <Content Include="webImages.html" />
+    <Content Include="webImages\205-2057548_full-hd-blur-background.jpg" />
     <Content Include="webImages\Banner-FUE-Europe-cole2short.jpg" />
+    <Content Include="webImages\download %281%29.jpg" />
     <Content Include="webImages\download.jpg" />
     <Content Include="webImages\FUE LOGO.jpg" />
+    <Content Include="webImages\images.jpg" />
     <Content Include="webImages\OIP %281%29.jpg" />
     <Content Include="webImages\OIP %282%29.jpg" />
     <Content Include="webImages\OIP.jpg" />
@@ -153,6 +158,13 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="personSignUP.aspx.cs">
+      <DependentUpon>personSignUP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="personSignUP.aspx.designer.cs">
+      <DependentUpon>personSignUP.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration.aspx.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
@@ -174,6 +186,13 @@
     </Compile>
     <Compile Include="schedule.aspx.designer.cs">
       <DependentUpon>schedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUP.aspx.cs">
+      <DependentUpon>SignUP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUP.aspx.designer.cs">
+      <DependentUpon>SignUP.aspx</DependentUpon>
     </Compile>
     <Compile Include="Studentprofile.aspx.cs">
       <DependentUpon>Studentprofile.aspx</DependentUpon>
