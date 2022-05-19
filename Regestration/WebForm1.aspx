@@ -27,7 +27,7 @@
 
            #nav ul li a
         {   
-            color:#fff;
+            color:aquamarine;
             text-decoration:none;
             font-family:'Arial Nova';
             background:#0a0;
@@ -39,7 +39,7 @@
             {
 
                  background:#0c0;
-                 color:#000;
+                 color:blueviolet;
 
             }
 
