@@ -58,7 +58,7 @@ li a:hover {
 }*/
 
 #footer {
-    position: static;
+    position:static;
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
@@ -71,4 +71,5 @@ li a:hover {
 #con {
     border: double;
     border-color: burlywood;
+    width:100%;
 }

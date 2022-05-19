@@ -11,7 +11,8 @@
 </head>  
 <body>  
 <header id="header">  
-<h1>c# corner</h1>  
+<h1>Welcome to FUE</h1>  
+    <img src ="FUE LOGO.jpg" />
 </header>  
 <nav id="nav">  
     <ul>  
@@ -31,7 +32,7 @@
   
     <div id="con">  
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">  
-          
+           <p> wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</p>
         </asp:ContentPlaceHolder>  
     </div>  
   
@@ -41,8 +42,6 @@
 </footer>  
 </body>  
 </html>  
-    <form id="form1" runat="server">  
+   <%-- <form id="form1" runat="server">  
       
-    </form>  
-</body>  
-</html> 
+    </form>  --%>  
