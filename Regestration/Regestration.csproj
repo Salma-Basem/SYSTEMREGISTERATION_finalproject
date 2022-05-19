@@ -70,10 +70,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Student.mdf" />
-    <Content Include="App_Data\Student_log.ldf">
-      <DependentUpon>Student.mdf</DependentUpon>
-    </Content>
     <Content Include="attendence.aspx" />
     <Content Include="Background.aspx" />
     <Content Include="BlurBackground.html" />
@@ -92,6 +88,7 @@
     <Content Include="logo3.html" />
     <Content Include="logo4.html" />
     <Content Include="NAVIGATION.html" />
+    <Content Include="NEATIMAGES.html" />
     <Content Include="Newevents.html" />
     <Content Include="personSignUP.aspx" />
     <Content Include="Registration.aspx" />
@@ -226,6 +223,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\" />
     <Folder Include="UserPic\" />
   </ItemGroup>
   <PropertyGroup>

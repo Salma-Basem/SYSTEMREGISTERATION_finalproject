@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> IMAGE SLIDER</title>
+    <style type="text/css">
+        #slider
+        {
+            overflow:hidden;
+        }
+
+        #slider figure
+        {
+            position:relative;
+            width:500%;
+            margin:0;
+            left:0;
+            animation:20s slider infinite;
+        }
+
+        #slider  figure img
+        {
+            float:left;
+            width:20%;
+        }
+
+        @keyframes slider
+        {
+            0%
+            {
+                left:0;
+            }
+
+            20% 
+            {
+                left: 0;
+            }
+
+            25%
+            {
+                left:-100%;
+            }
+            45%
+            {
+                left:-100%;
+            }
+
+            50% 
+            {
+                left: -200%;
+            }
+
+            70% 
+            {
+                left: -200%;
+            }
+
+            75%
+            {
+                left: -300%;
+            }
+
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="slider">
+        <figure>
+            <img src="webImages/Banner-FUE-Europe-cole2short.jpg" />
+            <img src="webImages/download (1).jpg" />
+            <img src="webImages/download.jpg" />
+            <img src="webImages/OIP (2).jpg" />
+        </figure>
+
+    </div>
+</body>
+</html>
