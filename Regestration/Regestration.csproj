@@ -94,6 +94,7 @@
     <Content Include="Registration.aspx" />
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
+    <Content Include="sliderimage.html" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
