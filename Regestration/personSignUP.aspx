@@ -41,7 +41,9 @@
                 <td class="auto-style5">
                     <asp:TextBox ID="txt_fn" runat="server" BorderColor="Black" Height="27px" Width="346px"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
+                <td>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Required !!" Font-Bold="True" Font-Size="Small" ForeColor="Red"></asp:RequiredFieldValidator>
+                </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -87,6 +89,24 @@
             </tr>
             <tr>
                 <td class="auto-style5">
+                    <asp:Label ID="Label13" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="Medium" ForeColor="White" Text="Date Of Birth:"></asp:Label>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+                    <asp:TextBox ID="txt_ln0" runat="server" BorderColor="Black" BorderStyle="Solid" Height="27px" Width="346px" TextMode="Date"></asp:TextBox>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
                     <asp:Label ID="Label7" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="Medium" ForeColor="White" Text="Email:"></asp:Label>
                 </td>
                 <td>&nbsp;</td>
@@ -97,6 +117,24 @@
             <tr>
                 <td class="auto-style5">
                     <asp:TextBox ID="txt_e" runat="server" BorderColor="Black" Height="27px" Width="346px"></asp:TextBox>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+                    <asp:Label ID="Label12" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="Medium" ForeColor="White" Text="Address:"></asp:Label>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+                    <asp:TextBox ID="txt_address" runat="server" BorderColor="Black" Height="27px" Width="346px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -173,7 +211,7 @@
             </tr>
             <tr>
                 <td class="auto-style5">
-                    <asp:TextBox ID="txt_PASS" runat="server" BorderColor="Black" Height="27px" Width="346px"></asp:TextBox>
+                    <asp:TextBox ID="txt_PASS" runat="server" BorderColor="Black" Height="27px" Width="346px" TextMode="Password"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -191,7 +229,7 @@
             </tr>
             <tr>
                 <td class="auto-style5">
-                    <asp:TextBox ID="txt_RETYPE" runat="server" BorderColor="Black" Height="27px" Width="346px"></asp:TextBox>
+                    <asp:TextBox ID="txt_RETYPE" runat="server" BorderColor="Black" Height="27px" Width="346px" TextMode="Password"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
