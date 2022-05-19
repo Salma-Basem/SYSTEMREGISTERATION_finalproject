@@ -75,7 +75,9 @@
     <Content Include="BlurBackground.html" />
     <Content Include="ComputerArchticrure.aspx" />
     <Content Include="coursepage.aspx" />
+    <Content Include="dropmenu.aspx" />
     <Content Include="Footer.html" />
+    <Content Include="frontbar.aspx" />
     <Content Include="FUE LOGO.jpg" />
     <Content Include="home.html" />
     <Content Include="HomeWeb.html" />
@@ -94,21 +96,30 @@
     <Content Include="Registration.aspx" />
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
+    <Content Include="searchableLIST.aspx" />
     <Content Include="sliderimage.html" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="webImages.html" />
+    <Content Include="webImages\0c8244cbb55cfc3f786145e4d7cdf9bf.jpg" />
+    <Content Include="webImages\1111111111.jpg" />
     <Content Include="webImages\205-2057548_full-hd-blur-background.jpg" />
     <Content Include="webImages\Banner-FUE-Europe-cole2short.jpg" />
     <Content Include="webImages\download %281%29.jpg" />
+    <Content Include="webImages\download %285%29.jpg" />
     <Content Include="webImages\download.jpg" />
     <Content Include="webImages\FUE LOGO.jpg" />
+    <Content Include="webImages\ImageHandler %281%29.jpg" />
+    <Content Include="webImages\ImageHandler %282%29.jpg" />
+    <Content Include="webImages\ImageHandler.jpg" />
     <Content Include="webImages\images.jpg" />
     <Content Include="webImages\OIP %281%29.jpg" />
     <Content Include="webImages\OIP %282%29.jpg" />
     <Content Include="webImages\OIP.jpg" />
+    <Content Include="webImages\qqqqqqqqqqq.jpg" />
+    <Content Include="webImages\Screen-Shot-2017-11-26-at-3.43.41-AM-1347x800.jpg" />
     <Content Include="webIndex.aspx" />
     <Content Include="WEBVideo.html" />
   </ItemGroup>
@@ -140,6 +151,20 @@
     </Compile>
     <Compile Include="coursepage.aspx.designer.cs">
       <DependentUpon>coursepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dropmenu.aspx.cs">
+      <DependentUpon>dropmenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dropmenu.aspx.designer.cs">
+      <DependentUpon>dropmenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontbar.aspx.cs">
+      <DependentUpon>frontbar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontbar.aspx.designer.cs">
+      <DependentUpon>frontbar.aspx</DependentUpon>
     </Compile>
     <Compile Include="linksWEB.aspx.cs">
       <DependentUpon>linksWEB.aspx</DependentUpon>
@@ -183,6 +208,13 @@
     </Compile>
     <Compile Include="schedule.aspx.designer.cs">
       <DependentUpon>schedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="searchableLIST.aspx.cs">
+      <DependentUpon>searchableLIST.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="searchableLIST.aspx.designer.cs">
+      <DependentUpon>searchableLIST.aspx</DependentUpon>
     </Compile>
     <Compile Include="Studentprofile.aspx.cs">
       <DependentUpon>Studentprofile.aspx</DependentUpon>
