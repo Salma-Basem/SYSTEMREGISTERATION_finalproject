@@ -15,7 +15,7 @@
 </header>  
 <nav id="nav">  
     <ul>  
-        <li><a href="home.aspx">Home</a></li>  
+        <li><a href="HomeWeb.html">Home</a></li>  
         <li><a href="#">About</a></li>  
         <li><a href="#">Article</a></li>  
         <li><a href="#">Contact</a></li>  

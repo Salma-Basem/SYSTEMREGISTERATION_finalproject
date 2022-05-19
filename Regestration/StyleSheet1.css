@@ -50,11 +50,22 @@ li a:hover {
     padding-bottom: 75%;
 }
 
-#footer {
+/*#footer {
     background-color: #C7EFCF;
     text-align: center;
     padding-bottom: 5%;
     font-size: 20px;
+}*/
+
+#footer {
+    position: static;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    /* Height of the footer*/
+    height: 40px;
+    background-color: beige;
 }
 
 #con {
