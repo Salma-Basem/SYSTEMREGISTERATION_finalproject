@@ -30,12 +30,14 @@
 </aside>  
   
   
-    <div id="con">  
+<%--    <div id="con">  
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">  
-           <p> wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</p>
+           
         </asp:ContentPlaceHolder>  
-    </div>  
-  
+    </div> --%> 
+    <div id="con">
+
+    </div>
   
 <footer id="footer">  
     copyright @c# corner  
