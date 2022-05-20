@@ -103,6 +103,7 @@
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
     <Content Include="searchableLIST.aspx" />
+    <Content Include="searchICON.html" />
     <Content Include="sliderimage.html" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="StyleSheet1.css" />
