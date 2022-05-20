@@ -16,13 +16,14 @@
             margin:0;
             left:0;
             animation:10s slider infinite;
+           
         }
 
-        #slider  figure img
-        {
-            float:left;
-            width:20%;
-        }
+            #slider figure img {
+                float: left;
+                width: 20%;
+                opacity: 0.7;
+            }
 
         @keyframes slider
         {
@@ -74,8 +75,9 @@
         .bg-text {
             background-color: white; /* Fallback color */
             background-color: rgba(0,0,0, 0); /* Black w/opacity/see-through */
-            color: white;
+            color: lightslategrey;
             font-weight: bold;
+            font-family:'Arial Nova';
             /* border: 3px solid #f1f1f1;*/
             position: absolute;
             top: 50%;
@@ -100,12 +102,26 @@
             <img src="webImages/ImageHandler (1).jpg" />
         </figure>
 
+        <div class="bg-text">
+            <marquee direction="right">
+                <font-family = "Arial ">
+
+                    <h1 style="font-size:100px">Unleashing human potential</h1>
+                    <h2>We embrace diversity,individuality,and encourage a culture of open-mindedness</h2>
+
+                </font-family>               
+
+            </marquee>
+        </div>
+
     </div>
 
-    <div class="bg-text">
-        <h2>Future University</h2>
-        <h1 style="font-size:50px">I am Salma</h1>
-        <p>welcome</p>
-    </div>
+    <!--<div class="bg-text">
+        <marquee direction="right">
+        <h1 style="font-size:50px">Unleashing human potential</h1>
+        <h2>We embrace diversity,individuality,and encourage a culture of open-mindedness</h2>
+         
+            </marquee>
+    </div>-->
 </body>
 </html>
