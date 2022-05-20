@@ -99,6 +99,7 @@
     <Content Include="Newevents.html" />
     <Content Include="personSignUP.aspx" />
     <Content Include="Registration.aspx" />
+    <Content Include="responsiveWebsite.html" />
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
     <Content Include="searchableLIST.aspx" />
