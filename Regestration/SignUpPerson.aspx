@@ -348,7 +348,7 @@
             </tr>
             <tr>
                 <td colspan="5">
-                    <asp:Button ID="Button1" runat="server" BackColor="#999999" BorderStyle="Double" CssClass="auto-style6" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="X-Large" Height="50px" Text="Submit " Width="263px" OnClick="Button1_Click" />
+                    <asp:Button ID="Button1" runat="server" BackColor="#999999" BorderStyle="Double" CssClass="auto-style6" Font-Bold="True" Font-Names="Pristina" Font-Size="XX-Large" Height="50px" Text="Submit " Width="263px" OnClick="Button1_Click" />
 &nbsp;</td>
             </tr>
         </table>
