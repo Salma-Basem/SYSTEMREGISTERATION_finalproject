@@ -19,9 +19,9 @@ namespace Regestration
         {
             SqlConnection conn = new SqlConnection();
             //conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|database1.mdf" ;
-            conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|Database1.mdf;Integrated Security=True";
+            conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\SYSTEMREGISTERATION_finalproject\\Regestration\\App_Data\\Database1.mdf;Integrated Security=True";
             // create insert statement
-            string strINSERT = String.Format("INSERT INTO [person] values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}')", txt_fn.Text, txt_ln.Text, RRL.SelectedValue,txt_DOB.Text, txt_e.Text,txt_address.Text, txt_phone.Text, DDP.SelectedValue, txt_UN.Text, txt_PASS.Text,DDP_role.SelectedValue);
+            string strINSERT = String.Format("INSERT INTO [Person] values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}')", txt_fn.Text, txt_ln.Text, RRL.SelectedValue,txt_DOB.Text, txt_e.Text,txt_address.Text, txt_phone.Text, DDP.SelectedValue, txt_UN.Text, txt_PASS.Text,DDP_role.SelectedValue);
             // create sql command
             SqlCommand cmd = new SqlCommand(strINSERT, conn);
 
@@ -29,6 +29,7 @@ namespace Regestration
             cmd.ExecuteNonQuery();
             conn.Close();
 
+            lblMsg.Text = "hello";
 
         }
     }
