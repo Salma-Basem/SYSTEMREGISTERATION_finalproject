@@ -32,6 +32,9 @@
         .auto-style10 {
             height: 43px;
         }
+        .auto-style11 {
+            height: 54px;
+        }
     </style>
 </head>
 <body>
@@ -166,7 +169,7 @@
                 <td>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txt_address" ErrorMessage="Required !!" Font-Bold="True" Font-Size="Small" ForeColor="Red"></asp:RequiredFieldValidator>
                 </td>
-                <td>&nbsp;<asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" ControlToValidate="txt_address" ErrorMessage="Invalid Format !!" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="Small" ForeColor="#CC0000"></asp:RegularExpressionValidator>
+                <td>&nbsp;<asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" ControlToValidate="txt_address" ErrorMessage="Invalid Format !!" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="Small" ForeColor="#CC0000" ValidationExpression="\w|\d"></asp:RegularExpressionValidator>
                     &nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -187,7 +190,7 @@
                 <td class="auto-style8">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="txt_phone" ErrorMessage="Required !!" Font-Bold="True" Font-Size="Small" ForeColor="Red"></asp:RequiredFieldValidator>
                 </td>
-                <td class="auto-style8">&nbsp;&nbsp;<asp:RegularExpressionValidator ID="RegularExpressionValidator6" runat="server" ControlToValidate="txt_phone" ErrorMessage="Invalid Format !!" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="Small" ForeColor="#CC0000"></asp:RegularExpressionValidator>
+                <td class="auto-style8">&nbsp;&nbsp;<asp:RegularExpressionValidator ID="RegularExpressionValidator6" runat="server" ControlToValidate="txt_phone" ErrorMessage="Invalid Format !!" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="Small" ForeColor="#CC0000" ValidationExpression="[0][1][0-2]\s\d{7}"></asp:RegularExpressionValidator>
                 </td>
                 <td class="auto-style8"></td>
                 <td class="auto-style8"></td>
@@ -312,7 +315,8 @@
                 <td class="auto-style10"></td>
             </tr>
             <tr>
-                <td colspan="5">&nbsp;&nbsp; &nbsp;</td>
+                <td colspan="5" class="auto-style11">&nbsp;&nbsp; &nbsp;<asp:Label ID="lblMsg" runat="server" Font-Names="Monotype Corsiva" Font-Size="X-Large" ForeColor="Maroon"></asp:Label>
+                    </td>
             </tr>
             <tr>
                 <td colspan="5">
