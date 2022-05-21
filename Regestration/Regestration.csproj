@@ -109,6 +109,7 @@
     <Content Include="sliderimage.html" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="userHome.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
     <Content Include="WebFor2.aspx" />
@@ -276,6 +277,13 @@
     </Compile>
     <Compile Include="Studentprofile.aspx.designer.cs">
       <DependentUpon>Studentprofile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userHome.aspx.cs">
+      <DependentUpon>userHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userHome.aspx.designer.cs">
+      <DependentUpon>userHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebDesign.aspx.cs">
       <DependentUpon>WebDesign.aspx</DependentUpon>
