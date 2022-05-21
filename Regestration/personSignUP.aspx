@@ -25,6 +25,13 @@
         .auto-style8 {
             height: 37px;
         }
+        .auto-style9 {
+            width: 431px;
+            height: 43px;
+        }
+        .auto-style10 {
+            height: 43px;
+        }
     </style>
 </head>
 <body>
@@ -264,17 +271,45 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style5">
+                <td class="auto-style7">
                     <asp:TextBox ID="txt_RETYPE" runat="server" BorderColor="Black" Height="27px" Width="346px" TextMode="Password"></asp:TextBox>
                 </td>
-                <td>
+                <td class="auto-style8">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" ControlToValidate="txt_RETYPE" ErrorMessage="Required !!" Font-Bold="True" Font-Size="Small" ForeColor="Red"></asp:RequiredFieldValidator>
                 </td>
-                <td>
+                <td class="auto-style8">
                     <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="txt_PASS" ControlToValidate="txt_RETYPE" ErrorMessage="No Matching!!" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="Medium" ForeColor="#CC0000"></asp:CompareValidator>
                 </td>
+                <td class="auto-style8"></td>
+                <td class="auto-style8"></td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+                    <asp:Label ID="Label14" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="Medium" ForeColor="White" Text="Role:"></asp:Label>
+                </td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style9">
+                    <asp:DropDownList ID="DDP_role" runat="server" Height="17px" Width="349px">
+                        <asp:ListItem>--- choose your role---</asp:ListItem>
+                        <asp:ListItem>Student</asp:ListItem>
+                        <asp:ListItem>Doctor</asp:ListItem>
+                        <asp:ListItem>Assisstant</asp:ListItem>
+                    </asp:DropDownList>
+                </td>
+                <td class="auto-style10">
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" ControlToValidate="DDP_role" ErrorMessage="Required !!" Font-Bold="True" Font-Size="Small" ForeColor="Red"></asp:RequiredFieldValidator>
+                </td>
+                <td class="auto-style10">
+                </td>
+                <td class="auto-style10"></td>
+                <td class="auto-style10"></td>
             </tr>
             <tr>
                 <td colspan="5">&nbsp;&nbsp; &nbsp;</td>
