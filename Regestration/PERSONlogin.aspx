@@ -19,7 +19,7 @@
             width: 639px;
         }
         .auto-style6 {
-            margin-left: 521px;
+            margin-left: 0px;
             margin-top: 18px;
         }
         </style>
@@ -88,7 +88,7 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                    <asp:Button ID="Button1" runat="server" BackColor="#999999" BorderStyle="Double" CssClass="auto-style6" Font-Bold="True" Font-Names="Pristina" Font-Size="XX-Large" Height="50px" Text="Login" Width="263px" OnClick="Button1_Click" />
+                    <asp:Button ID="Button1" runat="server" BackColor="#999999" BorderStyle="Double" CssClass="auto-style6" Font-Bold="True" Font-Names="Pristina" Font-Size="XX-Large" Height="53px" Text="Login" Width="222px" OnClick="Button1_Click" />
                     </td>
                 </tr>
                 <tr>
