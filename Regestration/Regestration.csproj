@@ -98,7 +98,7 @@
     <Content Include="NAVIGATION.html" />
     <Content Include="NEATIMAGES.html" />
     <Content Include="Newevents.html" />
-    <Content Include="PERSONloginaspx.aspx" />
+    <Content Include="PERSONlogin.aspx" />
     <Content Include="personSignUP.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="responsiveWebsite.html" />
@@ -112,7 +112,7 @@
     <Content Include="userHome.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
-    <Content Include="WebFor2.aspx" />
+    <Content Include="SignUpPerson.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="webImages.html" />
     <Content Include="webImages\0c8244cbb55cfc3f786145e4d7cdf9bf.jpg" />
@@ -221,12 +221,12 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PERSONloginaspx.aspx.cs">
-      <DependentUpon>PERSONloginaspx.aspx</DependentUpon>
+    <Compile Include="PERSONlogin.aspx.cs">
+      <DependentUpon>PERSONlogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PERSONloginaspx.aspx.designer.cs">
-      <DependentUpon>PERSONloginaspx.aspx</DependentUpon>
+    <Compile Include="PERSONlogin.aspx.designer.cs">
+      <DependentUpon>PERSONlogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="personSignUP.aspx.cs">
       <DependentUpon>personSignUP.aspx</DependentUpon>
@@ -292,12 +292,12 @@
     <Compile Include="WebDesign.aspx.designer.cs">
       <DependentUpon>WebDesign.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebFor2.aspx.cs">
-      <DependentUpon>WebFor2.aspx</DependentUpon>
+    <Compile Include="SignUpPerson.aspx.cs">
+      <DependentUpon>SignUpPerson.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebFor2.aspx.designer.cs">
-      <DependentUpon>WebFor2.aspx</DependentUpon>
+    <Compile Include="SignUpPerson.aspx.designer.cs">
+      <DependentUpon>SignUpPerson.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
