@@ -81,6 +81,7 @@
     <Content Include="coursepage.aspx" />
     <Content Include="dropmenu.aspx" />
     <Content Include="Footer.html" />
+    <Content Include="Form2.aspx" />
     <Content Include="frontbar.aspx" />
     <Content Include="FUE LOGO.jpg" />
     <Content Include="home.aspx" />
@@ -97,6 +98,7 @@
     <Content Include="NAVIGATION.html" />
     <Content Include="NEATIMAGES.html" />
     <Content Include="Newevents.html" />
+    <Content Include="PERSONloginaspx.aspx" />
     <Content Include="personSignUP.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="responsiveWebsite.html" />
@@ -109,6 +111,7 @@
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
+    <Content Include="WebFor2.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="webImages.html" />
     <Content Include="webImages\0c8244cbb55cfc3f786145e4d7cdf9bf.jpg" />
@@ -123,6 +126,7 @@
     <Content Include="webImages\download %281%29.jpg" />
     <Content Include="webImages\download %285%29.jpg" />
     <Content Include="webImages\download.jpg" />
+    <Content Include="webImages\eeeeeeeeeeeeee.jpg" />
     <Content Include="webImages\FUE LOGO.jpg" />
     <Content Include="webImages\ImageHandler %281%29.jpg" />
     <Content Include="webImages\ImageHandler %282%29.jpg" />
@@ -133,6 +137,8 @@
     <Content Include="webImages\OIP.jpg" />
     <Content Include="webImages\qqqqqqqqqqq.jpg" />
     <Content Include="webImages\Screen-Shot-2017-11-26-at-3.43.41-AM-1347x800.jpg" />
+    <Content Include="webImages\various-book-books-college.jpg" />
+    <Content Include="webImages\wwwwq.jpg" />
     <Content Include="webIndex.aspx" />
     <Content Include="WEBVideo.html" />
   </ItemGroup>
@@ -172,6 +178,13 @@
     <Compile Include="dropmenu.aspx.designer.cs">
       <DependentUpon>dropmenu.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Form2.aspx.cs">
+      <DependentUpon>Form2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form2.aspx.designer.cs">
+      <DependentUpon>Form2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="frontbar.aspx.cs">
       <DependentUpon>frontbar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -206,6 +219,13 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PERSONloginaspx.aspx.cs">
+      <DependentUpon>PERSONloginaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PERSONloginaspx.aspx.designer.cs">
+      <DependentUpon>PERSONloginaspx.aspx</DependentUpon>
     </Compile>
     <Compile Include="personSignUP.aspx.cs">
       <DependentUpon>personSignUP.aspx</DependentUpon>
@@ -263,6 +283,13 @@
     </Compile>
     <Compile Include="WebDesign.aspx.designer.cs">
       <DependentUpon>WebDesign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFor2.aspx.cs">
+      <DependentUpon>WebFor2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFor2.aspx.designer.cs">
+      <DependentUpon>WebFor2.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>

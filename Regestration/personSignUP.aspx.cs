@@ -29,6 +29,10 @@ namespace Regestration
             cmd.ExecuteNonQuery();
             conn.Close();
 
+            //save user profile pic.
+            if (fupPic.HasFile)
+                fupPic.SaveAs(Server.MapPath("userPic") +"\\" + txt_UN.Text +"jpg");
+
             lblMsg.Text = "hello";
 
         }
