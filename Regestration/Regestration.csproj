@@ -123,7 +123,7 @@
     <Content Include="DoctorHome.aspx" />
     <Content Include="AttendanceSheet.aspx" />
     <Content Include="StudentList.aspx" />
-    <Content Include="WebForm11.aspx" />
+    <Content Include="GradedExams.aspx" />
     <Content Include="webImages.html" />
     <Content Include="webImages\0c8244cbb55cfc3f786145e4d7cdf9bf.jpg" />
     <Content Include="webImages\1111111111.jpg" />
@@ -393,12 +393,12 @@
     <Compile Include="StudentList.aspx.designer.cs">
       <DependentUpon>StudentList.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm11.aspx.cs">
-      <DependentUpon>WebForm11.aspx</DependentUpon>
+    <Compile Include="GradedExams.aspx.cs">
+      <DependentUpon>GradedExams.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm11.aspx.designer.cs">
-      <DependentUpon>WebForm11.aspx</DependentUpon>
+    <Compile Include="GradedExams.aspx.designer.cs">
+      <DependentUpon>GradedExams.aspx</DependentUpon>
     </Compile>
     <Compile Include="webIndex.aspx.cs">
       <DependentUpon>webIndex.aspx</DependentUpon>
