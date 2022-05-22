@@ -12,9 +12,14 @@ namespace Regestration
         protected void Page_Load(object sender, EventArgs e)
         {
             string username = "";
+            string FirstName = "";
+            string LastName = "";
 
             if (Request.Cookies["userInfo"] != null)
                 username = Request.Cookies["userInfo"].Values["usern"];
+                FirstName = Request.Cookies["userInfo"].Values["Fn"];
+                LastName = Request.Cookies["userInfo"].Values["Ln"];
+
 
             lblgMsg.Text = "welcome  " + username + " to FUE";
         }
