@@ -42,6 +42,14 @@ namespace Regestration
 
             if (reader.Read())
             {
+                HttpCookie coco = new HttpCookie("userInfo");
+                coco.Values.Add("usern",txt_UN.Text);
+                coco.Values.Add("passw", txt_PASS.Text);
+                coco.Expires = DateTime.Now.AddDays(3);
+                Response.Cookies.Add(coco);
+
+
+
                 if (txt_UN.Text == "ahmed2021")
                     Response.Redirect("~/StudentHome.aspx");
                 else

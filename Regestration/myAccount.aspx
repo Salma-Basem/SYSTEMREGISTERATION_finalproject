@@ -7,6 +7,9 @@
         .auto-style7 {
             margin-left: 30px;
         }
+        .auto-style8 {
+            margin-left: 8px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -48,4 +51,10 @@
      <asp:Label ID="Label9" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" Text="Your profile pic.:"></asp:Label>
     &nbsp;&nbsp;&nbsp;
     <asp:FileUpload ID="fupPic" runat="server" />
+
+    <br />
+    <br />
+    <br />
+
+    <asp:Button ID="Button1" runat="server" BackColor="#999999" BorderStyle="Double" CssClass="auto-style8" Font-Bold="True" Font-Names="Pristina" Font-Size="XX-Large" Height="50px" Text="Edit " Width="178px" OnClick="Button1_Click" />
 </asp:Content>

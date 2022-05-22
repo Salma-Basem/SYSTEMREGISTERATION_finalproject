@@ -11,7 +11,15 @@ namespace Regestration
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string username = "";
 
+            if (Request.Cookies["userInfo"] != null)
+                username = Request.Cookies["userInfo"].Values["usern"];
+
+            lblMg.Text = "welcome" + username + " to FUE";
+        
+        
+        
         }
     }
 }
