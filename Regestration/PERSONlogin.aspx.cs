@@ -41,7 +41,18 @@ namespace Regestration
             reader = cmdSelect.ExecuteReader();
 
             if (reader.Read())
-                Response.Redirect("~/UserHome.aspx");
+            {
+                if (txt_UN.Text == "ahmed2021")
+                    Response.Redirect("~/StudentHome.aspx");
+                else
+                     if (txt_UN.Text == "ahmed12341")
+                    Response.Redirect("~/DoctorHome.aspx");
+
+                else
+                     if (txt_UN.Text == "heba11")
+                    Response.Redirect("~/AssisstantHome.aspx");
+            }
+
             else
                 lblMsg.Text = "Incorrect username /password";
 
