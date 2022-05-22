@@ -11,12 +11,12 @@ namespace Regestration
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string username = "";
+            //string username = "";
 
-            if (Request.Cookies["userInfo"] != null)
-                username = Request.Cookies["userInfo"].Values["usern"];
+            //if (Request.Cookies["userInfo"] != null)
+            //    username = Request.Cookies["userInfo"].Values["usern"];
 
-            lblMg.Text = "welcome  " + username + " to FUE";
+            lblMg.Text = " Student Home ";
         
         
         
