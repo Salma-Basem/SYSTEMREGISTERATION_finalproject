@@ -10,7 +10,7 @@
 
 namespace Regestration
 {
-    public partial class WebForm8
+    public partial class WebForm10
     {
     }
 }
