@@ -112,6 +112,7 @@
     <Content Include="StyleSheet1.css" />
     <Content Include="DoctorHome.aspx" />
     <Content Include="StudentHome.aspx" />
+    <Content Include="UserHome.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
     <Content Include="SignUpPerson.aspx" />
@@ -300,6 +301,13 @@
     </Compile>
     <Compile Include="StudentHome.aspx.designer.cs">
       <DependentUpon>StudentHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserHome.aspx.cs">
+      <DependentUpon>UserHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserHome.aspx.designer.cs">
+      <DependentUpon>UserHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebDesign.aspx.cs">
       <DependentUpon>WebDesign.aspx</DependentUpon>
