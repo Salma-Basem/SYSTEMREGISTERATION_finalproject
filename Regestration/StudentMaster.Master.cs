@@ -16,12 +16,13 @@ namespace Regestration
             string LastName = "";
 
             if (Request.Cookies["userInfo"] != null)
+            {
                 username = Request.Cookies["userInfo"].Values["usern"];
-                FirstName = Request.Cookies["userInfo"].Values["Fn"];
-                LastName = Request.Cookies["userInfo"].Values["Ln"];
+                FirstName = Request.Cookies["userInfo"].Values["FirstN"];
+                LastName = Request.Cookies["userInfo"].Values["LastN"];
+            }
 
-
-            lblgMsg.Text = "welcome  " + username + " to FUE";
+            lblgMsg.Text = "welcome,  " + FirstName +" "+ LastName + " to FUE ";
         }
     }
 }

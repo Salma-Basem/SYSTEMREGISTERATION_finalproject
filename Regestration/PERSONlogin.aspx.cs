@@ -50,7 +50,7 @@ namespace Regestration
                 coco.Values.Add("usern",txt_UN.Text);
                 coco.Values.Add("passw", txt_PASS.Text);
                 coco.Values.Add("FirstN", Fname);
-                coco.Values.Add("Lastn", Lname;
+                coco.Values.Add("LastN", Lname);
 
                 coco.Expires = DateTime.Now.AddDays(3);
                 Response.Cookies.Add(coco);
