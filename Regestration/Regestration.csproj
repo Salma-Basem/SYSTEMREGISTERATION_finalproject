@@ -192,6 +192,13 @@
     <Compile Include="DoctorHome.aspx.designer.cs">
       <DependentUpon>DoctorHome.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DoctorMaster.Master.cs">
+      <DependentUpon>DoctorMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorMaster.Master.designer.cs">
+      <DependentUpon>DoctorMaster.Master</DependentUpon>
+    </Compile>
     <Compile Include="dropmenu.aspx.cs">
       <DependentUpon>dropmenu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -372,6 +379,7 @@
   <ItemGroup>
     <Content Include=".editorconfig" />
     <Content Include="HomePageMaster.Master" />
+    <Content Include="DoctorMaster.Master" />
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
     <Content Include="StudentMaster.Master" />
