@@ -57,7 +57,7 @@ namespace Regestration
 
 
 
-                if (txt_UN.Text == "ahmed2021")
+                if (txt_UN.Text == "salma123")
                     Response.Redirect("~/StudentHome.aspx");
                 else
                      if (txt_UN.Text == "ahmed12341")

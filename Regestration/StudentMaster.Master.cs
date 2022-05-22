@@ -23,6 +23,7 @@ namespace Regestration
             }
 
             lblgMsg.Text = "welcome,  " + FirstName +" "+ LastName + " to FUE ";
+            imguserpic.ImageUrl = "~/userPic" + username + ".jpg";
         }
     }
 }
