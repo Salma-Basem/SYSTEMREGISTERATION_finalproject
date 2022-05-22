@@ -80,7 +80,6 @@
     <Content Include="BlurBackground.html" />
     <Content Include="ComputerArchticrure.aspx" />
     <Content Include="coursepage.aspx" />
-    <Content Include="DoctorHome.aspx" />
     <Content Include="dropmenu.aspx" />
     <Content Include="Footer.html" />
     <Content Include="Form2.aspx" />
@@ -120,6 +119,11 @@
     <Content Include="StudentCourses.aspx" />
     <Content Include="StudentGrades.aspx" />
     <Content Include="StudentAttendance.aspx" />
+    <Content Include="DoctorCourses.aspx" />
+    <Content Include="DoctorHome.aspx" />
+    <Content Include="AttendanceSheet.aspx" />
+    <Content Include="StudentList.aspx" />
+    <Content Include="WebForm11.aspx" />
     <Content Include="webImages.html" />
     <Content Include="webImages\0c8244cbb55cfc3f786145e4d7cdf9bf.jpg" />
     <Content Include="webImages\1111111111.jpg" />
@@ -184,13 +188,6 @@
     </Compile>
     <Compile Include="coursepage.aspx.designer.cs">
       <DependentUpon>coursepage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="DoctorHome.aspx.cs">
-      <DependentUpon>DoctorHome.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DoctorHome.aspx.designer.cs">
-      <DependentUpon>DoctorHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="DoctorMaster.Master.cs">
       <DependentUpon>DoctorMaster.Master</DependentUpon>
@@ -367,6 +364,41 @@
     </Compile>
     <Compile Include="StudentAttendance.aspx.designer.cs">
       <DependentUpon>StudentAttendance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorCourses.aspx.cs">
+      <DependentUpon>DoctorCourses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorCourses.aspx.designer.cs">
+      <DependentUpon>DoctorCourses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorHome.aspx.cs">
+      <DependentUpon>DoctorHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorHome.aspx.designer.cs">
+      <DependentUpon>DoctorHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceSheet.aspx.cs">
+      <DependentUpon>AttendanceSheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AttendanceSheet.aspx.designer.cs">
+      <DependentUpon>AttendanceSheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentList.aspx.cs">
+      <DependentUpon>StudentList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentList.aspx.designer.cs">
+      <DependentUpon>StudentList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm11.aspx.cs">
+      <DependentUpon>WebForm11.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm11.aspx.designer.cs">
+      <DependentUpon>WebForm11.aspx</DependentUpon>
     </Compile>
     <Compile Include="webIndex.aspx.cs">
       <DependentUpon>webIndex.aspx</DependentUpon>
