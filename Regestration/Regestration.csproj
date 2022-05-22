@@ -107,9 +107,11 @@
     <Content Include="searchableLIST.aspx" />
     <Content Include="searchICON.html" />
     <Content Include="sliderimage.html" />
+    <Content Include="AssisstantHome.aspx" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="StyleSheet1.css" />
-    <Content Include="userHome.aspx" />
+    <Content Include="DoctorHome.aspx" />
+    <Content Include="StudentHome.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
     <Content Include="SignUpPerson.aspx" />
@@ -271,6 +273,13 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
+    <Compile Include="AssisstantHome.aspx.cs">
+      <DependentUpon>AssisstantHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssisstantHome.aspx.designer.cs">
+      <DependentUpon>AssisstantHome.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Studentprofile.aspx.cs">
       <DependentUpon>Studentprofile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -278,12 +287,19 @@
     <Compile Include="Studentprofile.aspx.designer.cs">
       <DependentUpon>Studentprofile.aspx</DependentUpon>
     </Compile>
-    <Compile Include="userHome.aspx.cs">
-      <DependentUpon>userHome.aspx</DependentUpon>
+    <Compile Include="DoctorHome.aspx.cs">
+      <DependentUpon>DoctorHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="userHome.aspx.designer.cs">
-      <DependentUpon>userHome.aspx</DependentUpon>
+    <Compile Include="DoctorHome.aspx.designer.cs">
+      <DependentUpon>DoctorHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentHome.aspx.cs">
+      <DependentUpon>StudentHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentHome.aspx.designer.cs">
+      <DependentUpon>StudentHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebDesign.aspx.cs">
       <DependentUpon>WebDesign.aspx</DependentUpon>

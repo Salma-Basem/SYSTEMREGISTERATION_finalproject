@@ -110,8 +110,8 @@
             <tr>
                 <td class="auto-style5">
                     <asp:RadioButtonList ID="RRL" runat="server" Height="23px" RepeatDirection="Horizontal" Width="353px">
-                        <asp:ListItem>Male</asp:ListItem>
-                        <asp:ListItem>Female</asp:ListItem>
+                        <asp:ListItem Value="M">Male</asp:ListItem>
+                        <asp:ListItem Value="F">Female</asp:ListItem>
                     </asp:RadioButtonList>
                 </td>
                 <td>&nbsp;</td>

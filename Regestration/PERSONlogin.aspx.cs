@@ -24,7 +24,7 @@ namespace Regestration
         
             //2- create sql seelect statement
             
-            string strSelect = "SELECT * FROM [person] "
+            string strSelect = "SELECT * FROM [PERSON]  "
             + " WHERE Username = '" + txt_UN.Text + "' AND "
             + " Password = '" + txt_PASS.Text + "'";
 
