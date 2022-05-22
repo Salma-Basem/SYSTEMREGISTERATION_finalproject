@@ -16,7 +16,7 @@ namespace Regestration
             if (Request.Cookies["userInfo"] != null)
                 username = Request.Cookies["userInfo"].Values["usern"];
 
-            lblMg.Text = "welcome" + username + " to FUE";
+            lblMg.Text = "welcome  " + username + " to FUE";
         
         
         
