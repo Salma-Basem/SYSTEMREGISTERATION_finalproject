@@ -118,7 +118,8 @@
     <Content Include="StudentHome.aspx" />
     <Content Include="myAccount.aspx" />
     <Content Include="StudentCourses.aspx" />
-    <Content Include="WebForm5.aspx" />
+    <Content Include="StudentGrades.aspx" />
+    <Content Include="StudentAttendance.aspx" />
     <Content Include="webImages.html" />
     <Content Include="webImages\0c8244cbb55cfc3f786145e4d7cdf9bf.jpg" />
     <Content Include="webImages\1111111111.jpg" />
@@ -346,12 +347,19 @@
     <Compile Include="StudentCourses.aspx.designer.cs">
       <DependentUpon>StudentCourses.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm5.aspx.cs">
-      <DependentUpon>WebForm5.aspx</DependentUpon>
+    <Compile Include="StudentGrades.aspx.cs">
+      <DependentUpon>StudentGrades.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm5.aspx.designer.cs">
-      <DependentUpon>WebForm5.aspx</DependentUpon>
+    <Compile Include="StudentGrades.aspx.designer.cs">
+      <DependentUpon>StudentGrades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAttendance.aspx.cs">
+      <DependentUpon>StudentAttendance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAttendance.aspx.designer.cs">
+      <DependentUpon>StudentAttendance.aspx</DependentUpon>
     </Compile>
     <Compile Include="webIndex.aspx.cs">
       <DependentUpon>webIndex.aspx</DependentUpon>
