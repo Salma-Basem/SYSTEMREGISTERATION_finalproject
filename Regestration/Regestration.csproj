@@ -70,7 +70,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="481.jpg" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
@@ -79,16 +78,12 @@
     <Content Include="attendence.aspx" />
     <Content Include="Background.aspx" />
     <Content Include="BlurBackground.html" />
-    <Content Include="Cairo-1.jpg" />
     <Content Include="ComputerArchticrure.aspx" />
     <Content Include="coursepage.aspx" />
     <Content Include="dropmenu.aspx" />
-    <Content Include="EGYPTMAP-1.jpg" />
     <Content Include="Footer.html" />
     <Content Include="Form2.aspx" />
     <Content Include="frontbar.aspx" />
-    <Content Include="FUE LOGO.jpg" />
-    <Content Include="fue3.jpg" />
     <Content Include="home.aspx" />
     <Content Include="home.html" />
     <Content Include="HomeWeb.html" />
@@ -97,7 +92,6 @@
     <Content Include="linksWEB.aspx" />
     <Content Include="login.aspx" />
     <Content Include="logo.html" />
-    <Content Include="logo.jpg" />
     <Content Include="logo2.html" />
     <Content Include="logo3.html" />
     <Content Include="logo4.html" />

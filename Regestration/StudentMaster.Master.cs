@@ -22,8 +22,9 @@ namespace Regestration
                 LastName = Request.Cookies["userInfo"].Values["LastN"];
             }
 
-            lblgMsg.Text = "welcome,  " + FirstName +" "+ LastName + " to FUE ";
-            imguserpic.ImageUrl = "~/userPic/" + username + ".jpg";
+            lblgMsg.Text = "welcome,  "+ username  /*+ FirstName +" "+ LastName + "*/ +"  to FUE ";
+          //  imguserpic.ImageUrl = "~/userPic/" + username + ".jpg";
+            
         }
     }
 }
