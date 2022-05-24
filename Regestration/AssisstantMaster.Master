@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AssisstantHomeMaster.master.cs" Inherits="Regestration.AssisstantHomeMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AssisstantMaster.Master.cs" Inherits="Regestration.AssisstantHomeMaster" %>
 
 <!DOCTYPE html>
 

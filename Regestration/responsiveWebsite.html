@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" >
         <title > SEARCH </title >
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+       <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >-->
     <style>
         * {
             box-sizing: border-box;
@@ -99,7 +99,7 @@
         /* Left column */
         .leftcolumn {
             float: left;
-            width: 75%;
+            width: 100%;
         }
 
         /* Right column */
@@ -115,13 +115,15 @@
             background-color: #aaa;
             width: 100%;
             padding: 20px;
+            
         }
 
         /* Add a card effect for articles */
         .card {
-            background-color: white;
+            background-color: lightgrey;
             padding: 20px;
             margin-top: 20px;
+            font-family: 'Arial Nova';
         }
 
         /* Clear floats after the columns */
@@ -140,20 +142,20 @@
         }
 
         /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-        @media screen and (max-width: 800px) {
+        /*@media screen and (max-width: 800px) {
             .leftcolumn, .rightcolumn {
                 width: 100%;
                 padding: 0;
             }
-        }
+        }*/
 
         /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-        @media screen and (max-width: 400px) {
+        /*@media screen and (max-width: 400px) {
             .topnav a {
                 float: none;
                 width: 100%;
             }
-        }
+        }*/
     </style>
 </head>
 <body>
@@ -181,9 +183,10 @@
     <div class="row">
         <div class="leftcolumn">
             <div class="card">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Dec 7, 2017</h5>
-                <div class="fakeimg" style="height:200px;">Image</div>
+                <h2>New Events</h2>
+              <!--  <h5>Title description, Dec 7, 2017</h5>-->
+             <!--   <div class="fakeimg" style="height:200px;">Image</div>-->
+                <img src="webImages/Banner-FUE-Europe-cole2short.jpg" width="700"  />
                 <p>Some text..</p>
                 <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
             </div>
@@ -195,13 +198,13 @@
                 <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
             </div>
         </div>
-        <div class="rightcolumn">
+        <!--<div class="rightcolumn">
             <div class="card">
                 <h2>About Me</h2>
                 <div class="fakeimg" style="height:100px;">Image</div>
                 <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-            </div>
-            <div class="card">
+            </div>-->
+            <!--<div class="card">
                 <h3>Popular Post</h3>
                 <div class="fakeimg"><p>Image</p></div>
                 <div class="fakeimg"><p>Image</p></div>
@@ -210,12 +213,14 @@
             <div class="card">
                 <h3>Follow Me</h3>
                 <p>Some text..</p>
-            </div>
-        </div>
-    </div>
+            </div>-->
+       <!-- </div>
+-->    </div>
 
     <div class="footer">
-        <h2>Footer</h2>
+        <h2><FONT FACE="arial" color="black" size="-1">
+    Powered By FUE Team &copy; 2022 <a href="mailto:awad.hassaballah@fue.edu.eg">contact Webmaster</a>
+</FONT></h2>
     </div>
 
 </body>

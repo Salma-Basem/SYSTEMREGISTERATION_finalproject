@@ -160,6 +160,13 @@
     <Compile Include="AssisstantHome.aspx.designer.cs">
       <DependentUpon>AssisstantHome.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AssisstantMaster.Master.cs">
+      <DependentUpon>AssisstantMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssisstantMaster.Master.designer.cs">
+      <DependentUpon>AssisstantMaster.Master</DependentUpon>
+    </Compile>
     <Compile Include="attendence.aspx.cs">
       <DependentUpon>attendence.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -411,6 +418,7 @@
     <Content Include=".editorconfig" />
     <Content Include="HomePageMaster.Master" />
     <Content Include="DoctorMaster.Master" />
+    <Content Include="AssisstantMaster.Master" />
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
     <Content Include="StudentMaster.Master" />
