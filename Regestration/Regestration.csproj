@@ -109,6 +109,7 @@
     <Content Include="sliderimage.html" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="triall.html" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
     <Content Include="SignUpPerson.aspx" />
@@ -126,6 +127,7 @@
     <Content Include="webImages.html" />
     <Content Include="webImages\0c8244cbb55cfc3f786145e4d7cdf9bf.jpg" />
     <Content Include="webImages\1111111111.jpg" />
+    <Content Include="webImages\1568062856218.jpeg" />
     <Content Include="webImages\205-2057548_full-hd-blur-background.jpg" />
     <Content Include="webImages\b1.jpg" />
     <Content Include="webImages\b2.jpg" />
