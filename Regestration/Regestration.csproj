@@ -76,14 +76,11 @@
     </Content>
     <Content Include="AssisstantHome.aspx" />
     <Content Include="attendence.aspx" />
-    <Content Include="Background.aspx" />
     <Content Include="BlurBackground.html" />
     <Content Include="ComputerArchticrure.aspx" />
     <Content Include="coursepage.aspx" />
     <Content Include="dropmenu.aspx" />
     <Content Include="Footer.html" />
-    <Content Include="Form2.aspx" />
-    <Content Include="frontbar.aspx" />
     <Content Include="FUEevent.html" />
     <Content Include="HeaderWithText.html" />
     <Content Include="home.aspx" />
@@ -106,15 +103,12 @@
     <Content Include="responsiveWebsite.html" />
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
-    <Content Include="searchableLIST.aspx" />
     <Content Include="searchICON.html" />
     <Content Include="sliderimage.html" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
-    <Content Include="WebDesign.aspx" />
     <Content Include="SignUpPerson.aspx" />
-    <Content Include="WebForm1.aspx" />
     <Content Include="StudentHome.aspx" />
     <Content Include="myAccount.aspx" />
     <Content Include="StudentCourses.aspx" />
@@ -152,8 +146,6 @@
     <Content Include="webImages\Screen-Shot-2017-11-26-at-3.43.41-AM-1347x800.jpg" />
     <Content Include="webImages\various-book-books-college.jpg" />
     <Content Include="webImages\wwwwq.jpg" />
-    <Content Include="webIndex.aspx" />
-    <Content Include="WEBVideo.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssisstantHome.aspx.cs">
@@ -176,13 +168,6 @@
     </Compile>
     <Compile Include="attendence.aspx.designer.cs">
       <DependentUpon>attendence.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Background.aspx.cs">
-      <DependentUpon>Background.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Background.aspx.designer.cs">
-      <DependentUpon>Background.aspx</DependentUpon>
     </Compile>
     <Compile Include="ComputerArchticrure.aspx.cs">
       <DependentUpon>ComputerArchticrure.aspx</DependentUpon>
@@ -212,33 +197,12 @@
     <Compile Include="dropmenu.aspx.designer.cs">
       <DependentUpon>dropmenu.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Form2.aspx.cs">
-      <DependentUpon>Form2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Form2.aspx.designer.cs">
-      <DependentUpon>Form2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="frontbar.aspx.cs">
-      <DependentUpon>frontbar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="frontbar.aspx.designer.cs">
-      <DependentUpon>frontbar.aspx</DependentUpon>
-    </Compile>
     <Compile Include="home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="HomePageMaster.Master.cs">
-      <DependentUpon>HomePageMaster.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="HomePageMaster.Master.designer.cs">
-      <DependentUpon>HomePageMaster.Master</DependentUpon>
     </Compile>
     <Compile Include="linksWEB.aspx.cs">
       <DependentUpon>linksWEB.aspx</DependentUpon>
@@ -290,20 +254,6 @@
     <Compile Include="schedule.aspx.designer.cs">
       <DependentUpon>schedule.aspx</DependentUpon>
     </Compile>
-    <Compile Include="searchableLIST.aspx.cs">
-      <DependentUpon>searchableLIST.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="searchableLIST.aspx.designer.cs">
-      <DependentUpon>searchableLIST.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Site1.Master.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site1.Master.designer.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
-    </Compile>
     <Compile Include="StudentMaster.Master.cs">
       <DependentUpon>StudentMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -318,26 +268,12 @@
     <Compile Include="Studentprofile.aspx.designer.cs">
       <DependentUpon>Studentprofile.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebDesign.aspx.cs">
-      <DependentUpon>WebDesign.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebDesign.aspx.designer.cs">
-      <DependentUpon>WebDesign.aspx</DependentUpon>
-    </Compile>
     <Compile Include="SignUpPerson.aspx.cs">
       <DependentUpon>SignUpPerson.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SignUpPerson.aspx.designer.cs">
       <DependentUpon>SignUpPerson.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="StudentHome.aspx.cs">
       <DependentUpon>StudentHome.aspx</DependentUpon>
@@ -409,21 +345,12 @@
     <Compile Include="GradedExams.aspx.designer.cs">
       <DependentUpon>GradedExams.aspx</DependentUpon>
     </Compile>
-    <Compile Include="webIndex.aspx.cs">
-      <DependentUpon>webIndex.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="webIndex.aspx.designer.cs">
-      <DependentUpon>webIndex.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include=".editorconfig" />
-    <Content Include="HomePageMaster.Master" />
     <Content Include="DoctorMaster.Master" />
     <Content Include="AssisstantMaster.Master" />
     <None Include="packages.config" />
-    <Content Include="Site1.Master" />
     <Content Include="StudentMaster.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
