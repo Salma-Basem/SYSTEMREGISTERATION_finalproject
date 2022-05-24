@@ -84,6 +84,7 @@
     <Content Include="Footer.html" />
     <Content Include="Form2.aspx" />
     <Content Include="frontbar.aspx" />
+    <Content Include="HeaderWithText.html" />
     <Content Include="home.aspx" />
     <Content Include="home.html" />
     <Content Include="HomeWeb.html" />
