@@ -141,6 +141,79 @@
             margin-top: 20px;
         }
 
+        #slider {
+            overflow: hidden;
+        }
+
+            #slider figure {
+                position: relative;
+                width: 500%;
+                margin: 0;
+                left: 0;
+                animation: 10s slider infinite;
+            }
+
+                #slider figure img {
+                    float: left;
+                    width: 20%;
+                    opacity: 0.7;
+                }
+
+        @keyframes slider {
+            0% {
+                left: 0;
+            }
+
+            20% {
+                left: 0;
+            }
+
+            25% {
+                left: -100%;
+            }
+
+            45% {
+                left: -100%;
+            }
+
+            50% {
+                left: -200%;
+            }
+
+            70% {
+                left: -200%;
+            }
+
+            75% {
+                left: -300%;
+            }
+
+            95% {
+                left: -300%;
+            }
+
+            100% {
+                left: -400%;
+            }
+        }
+
+        .bg-text {
+            background-color: white; /* Fallback color */
+            background-color: rgba(0,0,0, 0); /* Black w/opacity/see-through */
+            color: grey;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* border: 3px solid #f1f1f1;*/
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 10px;
+            text-align: center;
+        }
+
         /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
         /*@media screen and (max-width: 800px) {
             .leftcolumn, .rightcolumn {
@@ -180,48 +253,73 @@
         </form>
     </div>
 
-    <div class="row">
-        <div class="leftcolumn">
-            <div class="card">
-                <h2>New Events</h2>
-              <!--  <h5>Title description, Dec 7, 2017</h5>-->
-             <!--   <div class="fakeimg" style="height:200px;">Image</div>-->
-                <img src="webImages/Banner-FUE-Europe-cole2short.jpg" width="700"  />
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-            </div>
-            <div class="card">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Sep 2, 2017</h5>
-                <div class="fakeimg" style="height:200px;">Image</div>
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <div class=" row">
+        <div id="slider">
+            <figure>
+                <img src="webImages/ImageHandler.jpg" />
+                <img src="webImages/ImageHandler (2).jpg" />
+                <img src="webImages/qqqqqqqqqqq.jpg" />
+                <img src="webImages/Screen-Shot-2017-11-26-at-3.43.41-AM-1347x800.jpg" />
+                <img src="webImages/ImageHandler (1).jpg" />
+            </figure>
+
+            <div class="bg-text">
+                <marquee direction="right">
+                    <font-family ="Arial ">
+
+                        <h1 style="font-size:100px">Unleashing human potential</h1>
+                        <h2>We embrace diversity,individuality,and encourage a culture of open-mindedness</h2>
+
+                    </font-family>
+
+                </marquee>
             </div>
         </div>
-        <!--<div class="rightcolumn">
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2>New Events</h2>
+                    <!--  <h5>Title description, Dec 7, 2017</h5>-->
+                    <!--   <div class="fakeimg" style="height:200px;">Image</div>-->
+                    <img src="webImages/Banner-FUE-Europe-cole2short.jpg" width="700" />
+                    <p>Some text..</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+                <div class="card">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, Sep 2, 2017</h5>
+                    <div class="fakeimg" style="height:200px;">Image</div>
+                    <p>Some text..</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+            </div>
+            <!--<div class="rightcolumn">
             <div class="card">
                 <h2>About Me</h2>
                 <div class="fakeimg" style="height:100px;">Image</div>
                 <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
             </div>-->
             <!--<div class="card">
-                <h3>Popular Post</h3>
-                <div class="fakeimg"><p>Image</p></div>
-                <div class="fakeimg"><p>Image</p></div>
-                <div class="fakeimg"><p>Image</p></div>
-            </div>
-            <div class="card">
-                <h3>Follow Me</h3>
-                <p>Some text..</p>
-            </div>-->
-       <!-- </div>
--->    </div>
+            <h3>Popular Post</h3>
+            <div class="fakeimg"><p>Image</p></div>
+            <div class="fakeimg"><p>Image</p></div>
+            <div class="fakeimg"><p>Image</p></div>
+        </div>
+        <div class="card">
+            <h3>Follow Me</h3>
+            <p>Some text..</p>
+        </div>-->
+            <!-- </div>
+        -->
+        </div>
 
-    <div class="footer">
-        <h2><FONT FACE="arial" color="black" size="-1">
-    Powered By FUE Team &copy; 2022 <a href="mailto:awad.hassaballah@fue.edu.eg">contact Webmaster</a>
-</FONT></h2>
-    </div>
+        <div class="footer">
+            <h2>
+                <FONT FACE="arial" color="black" size="-1">
+                    Powered By FUE Team &copy; 2022 <a href="mailto:awad.hassaballah@fue.edu.eg">contact Webmaster</a>
+                </FONT>
+            </h2>
+        </div>
 
 </body>
 </html>

@@ -109,7 +109,6 @@
     <Content Include="sliderimage.html" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="StyleSheet1.css" />
-    <Content Include="triall.html" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
     <Content Include="SignUpPerson.aspx" />
