@@ -74,7 +74,9 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
-    <Content Include="AssisstantHome.aspx" />
+    <Content Include="AssignmentAssistant.aspx" />
+    <Content Include="AssignmentStudent.aspx" />
+    <Content Include="AttendanceAssistant.aspx" />
     <Content Include="attendence.aspx" />
     <Content Include="BlurBackground.html" />
     <Content Include="ComputerArchticrure.aspx" />
@@ -148,12 +150,12 @@
     <Content Include="webImages\wwwwq.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssisstantHome.aspx.cs">
-      <DependentUpon>AssisstantHome.aspx</DependentUpon>
+    <Compile Include="AssignmentAssistant.aspx.cs">
+      <DependentUpon>AssignmentAssistant.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AssisstantHome.aspx.designer.cs">
-      <DependentUpon>AssisstantHome.aspx</DependentUpon>
+    <Compile Include="AssignmentAssistant.aspx.designer.cs">
+      <DependentUpon>AssignmentAssistant.aspx</DependentUpon>
     </Compile>
     <Compile Include="AssisstantMaster.Master.cs">
       <DependentUpon>AssisstantMaster.Master</DependentUpon>
@@ -161,6 +163,13 @@
     </Compile>
     <Compile Include="AssisstantMaster.Master.designer.cs">
       <DependentUpon>AssisstantMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceAssistant.aspx.cs">
+      <DependentUpon>AttendanceAssistant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AttendanceAssistant.aspx.designer.cs">
+      <DependentUpon>AttendanceAssistant.aspx</DependentUpon>
     </Compile>
     <Compile Include="attendence.aspx.cs">
       <DependentUpon>attendence.aspx</DependentUpon>
