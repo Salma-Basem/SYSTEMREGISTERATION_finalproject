@@ -44,10 +44,10 @@
         <tr>
             <td class="style13">
                 <asp:Label ID="Label5" runat="server" Font-Names="Arial Nova Light" Font-Size="Medium" 
-                    ForeColor="#000066" Text="Sex:" Font-Bold="True"></asp:Label>
+                    ForeColor="#000066" Text="Gender:" Font-Bold="True"></asp:Label>
             </td>
             <td class="style14">
-                <asp:RadioButtonList ID="rblSex" runat="server" Font-Names="Arial Nova Light" 
+                <asp:RadioButtonList ID="rblg" runat="server" Font-Names="Arial Nova Light" 
                     Font-Size="Medium" ForeColor="#000066" RepeatDirection="Horizontal" 
                     Enabled="False" Font-Bold="True">
                     <asp:ListItem Value="M">Male</asp:ListItem>
