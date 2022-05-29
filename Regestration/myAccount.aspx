@@ -1,13 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/StudentMaster.Master" AutoEventWireup="true" CodeBehind="myAccount.aspx.cs" Inherits="Regestration.WebForm3" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-        .auto-style6 {
-            margin-left: 114px;
-        }
-    </style>
+    .auto-style6 {
+        margin-left: 114px;
+    }
+</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<p>
+    <p>
         <br />
         <asp:Label ID="Label2" runat="server" Font-Names="Arial Black" 
             Font-Size="Medium" ForeColor="#006699" Text="My Account:"></asp:Label>
@@ -62,10 +62,24 @@
         <tr>
             <td class="style13">
                 <asp:Label ID="Label6" runat="server" Font-Names="Arial Nova Light" Font-Size="Medium" 
-                    ForeColor="#000066" Text="Email Address:" Font-Bold="True"></asp:Label>
+                    ForeColor="#000066" Text="Email :" Font-Bold="True"></asp:Label>
             </td>
             <td class="style14">
                 <asp:TextBox ID="txtEmail" runat="server" Font-Names="Arial" Font-Size="Medium" 
+                    ForeColor="#000066" Width="175px" Enabled="False"></asp:TextBox>
+            </td>
+            <td>
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td class="style13">
+                <asp:Label ID="Label11" runat="server" Font-Names="Arial Nova Light" Font-Size="Medium" 
+                    ForeColor="#000066" Text=" Address:" Font-Bold="True"></asp:Label>
+            </td>
+            <td class="style14">
+                <asp:TextBox ID="txtAddress" runat="server" Font-Names="Arial" Font-Size="Medium" 
                     ForeColor="#000066" Width="175px" Enabled="False"></asp:TextBox>
             </td>
             <td>

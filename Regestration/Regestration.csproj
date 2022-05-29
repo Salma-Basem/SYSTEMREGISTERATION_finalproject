@@ -121,6 +121,9 @@
     <Content Include="AttendanceSheet.aspx" />
     <Content Include="StudentList.aspx" />
     <Content Include="GradedExams.aspx" />
+    <Content Include="StudentCourseRegisteration.aspx" />
+    <Content Include="StudentCourseDetails.aspx" />
+    <Content Include="StudentSchedule.aspx" />
     <Content Include="webImages.html" />
     <Content Include="webImages\0c8244cbb55cfc3f786145e4d7cdf9bf.jpg" />
     <Content Include="webImages\1111111111.jpg" />
@@ -353,6 +356,27 @@
     </Compile>
     <Compile Include="GradedExams.aspx.designer.cs">
       <DependentUpon>GradedExams.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentCourseRegisteration.aspx.cs">
+      <DependentUpon>StudentCourseRegisteration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentCourseRegisteration.aspx.designer.cs">
+      <DependentUpon>StudentCourseRegisteration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentCourseDetails.aspx.cs">
+      <DependentUpon>StudentCourseDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentCourseDetails.aspx.designer.cs">
+      <DependentUpon>StudentCourseDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentSchedule.aspx.cs">
+      <DependentUpon>StudentSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentSchedule.aspx.designer.cs">
+      <DependentUpon>StudentSchedule.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

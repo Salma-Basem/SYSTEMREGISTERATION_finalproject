@@ -64,9 +64,15 @@
                                 <td>
                                     <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/StudentAttendance.aspx">My Attendance</asp:HyperLink>
                                 </td>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
+                                <td>
+                                    <asp:HyperLink ID="HyperLink6" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/StudentCourseRegisteration.aspx" Target="_self">Course Registeration</asp:HyperLink>
+                                </td>
+                                <td>
+                                    <asp:HyperLink ID="HyperLink7" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/StudentCourseDetails.aspx" Target="_self">Courses Details</asp:HyperLink>
+                                </td>
+                                <td>
+                                    <asp:HyperLink ID="HyperLink8" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/StudentSchedule.aspx" Target="_self">My schedule</asp:HyperLink>
+                                </td>
                             </tr>
                         </table>
                     </td>

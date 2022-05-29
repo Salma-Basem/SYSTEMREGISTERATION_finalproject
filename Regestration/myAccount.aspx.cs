@@ -12,48 +12,52 @@ namespace Regestration
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string username = "";
-            if (Request.Cookies["userInfo"] != null)
-                username = Request.Cookies["userInfo"].Values["usern"];
-
-            ViewState["U"] = username;
-
-            imgUserPic.ImageUrl = "~/userPic/" + username + ".jpg";
-
-            // 1- Create Connection Object
-            SqlConnection conn = new SqlConnection();
-            conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|database1.mdf";
-
-
-            string strSelect = "SELECT * FROM [PERSON] "
-                + " WHERE Username = '" + username + "'";
-
-            SqlCommand cmdSelect = new SqlCommand(strSelect, conn);
-
-            SqlDataReader reader;
-
-            conn.Open();
-            reader = cmdSelect.ExecuteReader();
-
-            if (reader.Read())
+            if (!IsPostBack)
             {
-                txtFname.Text = (string)reader.GetValue(0);
-                txtLname.Text = (string)reader.GetValue(1);
-                rblg.SelectedValue = (string)reader.GetValue(2);
-                txtEmail.Text = (string)reader.GetValue(4);
-                txtPhone.Text = (string)reader.GetValue(6);
-                ddlCountry.SelectedValue = (string)reader.GetValue(7);
-                txtUsername.Text = (string)reader.GetValue(8);
+                string username = "";
+                if (Request.Cookies["userInfo"] != null)
+                    username = Request.Cookies["userInfo"].Values["usern"];
 
+                ViewState["U"] = username;
+
+                imgUserPic.ImageUrl = "~/userPic/" + username + ".jpg";
+
+                // 1- Create Connection Object
+                SqlConnection conn = new SqlConnection();
+                conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|database1.mdf";
+
+
+                string strSelect = "SELECT * FROM [PERSON] "
+                    + " WHERE Username = '" + username + "'";
+
+                SqlCommand cmdSelect = new SqlCommand(strSelect, conn);
+
+                SqlDataReader reader;
+
+                conn.Open();
+                reader = cmdSelect.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    txtFname.Text = (string)reader.GetValue(0);
+                    txtLname.Text = (string)reader.GetValue(1);
+                    rblg.SelectedValue = (string)reader.GetValue(2);
+                    txtEmail.Text = (string)reader.GetValue(4);
+                    txtAddress.Text = (string)reader.GetValue(5);
+                    txtPhone.Text = (string)reader.GetValue(6);
+                    ddlCountry.SelectedValue = (string)reader.GetValue(7);
+                    txtUsername.Text = (string)reader.GetValue(8);
+
+                }
             }
         }
-
         protected void btnEdit_Click(object sender, EventArgs e)
         {
             txtFname.Enabled = true;
             txtLname.Enabled = true;
             rblg.Enabled = true;
             txtEmail.Enabled = true;
+            txtAddress.Enabled = true;
             txtPhone.Enabled = true;
             ddlCountry.Enabled = true;
             fupPic.Enabled = true;
@@ -77,6 +81,7 @@ namespace Regestration
                 + " Lname = '" + txtLname.Text + "', "
                 + " Gender= '" + rblg.SelectedValue + "', "
                 + " Email = '" + txtEmail.Text + "', "
+                + " Address = '" + txtAddress.Text + "', "
                 + " Phone = '" + txtPhone.Text + "', "
                 + " Country = '" + ddlCountry.SelectedValue + "' "
                 + " WHERE Username = '" + username + "'";
