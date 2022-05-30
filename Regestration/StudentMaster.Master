@@ -59,7 +59,7 @@
                                     <asp:HyperLink ID="HyperLink3" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/StudentCourses.aspx">My Courses</asp:HyperLink>
                                 </td>
                                 <td>
-                                    <asp:HyperLink ID="HyperLink4" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/StudentGrades.aspx">My Grades</asp:HyperLink>
+                                    <asp:HyperLink ID="HyperLink4" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/StudentSCHEDULE.aspx">My Schedule</asp:HyperLink>
                                 </td>
                                 <td>
                                     <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/StudentAttendance.aspx">My Attendance</asp:HyperLink>
@@ -71,7 +71,7 @@
                                     <asp:HyperLink ID="HyperLink7" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/StudentCourseDetails.aspx" Target="_self">Courses Details</asp:HyperLink>
                                 </td>
                                 <td>
-                                    <asp:HyperLink ID="HyperLink8" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/StudentSchedule.aspx" Target="_self">My schedule</asp:HyperLink>
+                                    <asp:HyperLink ID="HyperLink8" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/registerr.aspx" Target="_self">registerrr</asp:HyperLink>
                                 </td>
                             </tr>
                         </table>

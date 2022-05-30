@@ -115,7 +115,7 @@
     <Content Include="StudentHome.aspx" />
     <Content Include="myAccount.aspx" />
     <Content Include="StudentCourses.aspx" />
-    <Content Include="StudentGrades.aspx" />
+    <Content Include="StudentSCHEDULE.aspx" />
     <Content Include="StudentAttendance.aspx" />
     <Content Include="DoctorCourses.aspx" />
     <Content Include="DoctorHome.aspx" />
@@ -124,7 +124,7 @@
     <Content Include="GradedExams.aspx" />
     <Content Include="StudentCourseRegisteration.aspx" />
     <Content Include="StudentCourseDetails.aspx" />
-    <Content Include="StudentSchedule.aspx" />
+    <Content Include="registerr.aspx" />
     <Content Include="webImages.html" />
     <Content Include="webImages\0c8244cbb55cfc3f786145e4d7cdf9bf.jpg" />
     <Content Include="webImages\1111111111.jpg" />
@@ -309,12 +309,12 @@
     <Compile Include="StudentCourses.aspx.designer.cs">
       <DependentUpon>StudentCourses.aspx</DependentUpon>
     </Compile>
-    <Compile Include="StudentGrades.aspx.cs">
-      <DependentUpon>StudentGrades.aspx</DependentUpon>
+    <Compile Include="StudentSCHEDULE.aspx.cs">
+      <DependentUpon>StudentSCHEDULE.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="StudentGrades.aspx.designer.cs">
-      <DependentUpon>StudentGrades.aspx</DependentUpon>
+    <Compile Include="StudentSCHEDULE.aspx.designer.cs">
+      <DependentUpon>StudentSCHEDULE.aspx</DependentUpon>
     </Compile>
     <Compile Include="StudentAttendance.aspx.cs">
       <DependentUpon>StudentAttendance.aspx</DependentUpon>
@@ -372,12 +372,12 @@
     <Compile Include="StudentCourseDetails.aspx.designer.cs">
       <DependentUpon>StudentCourseDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="StudentSchedule.aspx.cs">
-      <DependentUpon>StudentSchedule.aspx</DependentUpon>
+    <Compile Include="registerr.aspx.cs">
+      <DependentUpon>registerr.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="StudentSchedule.aspx.designer.cs">
-      <DependentUpon>StudentSchedule.aspx</DependentUpon>
+    <Compile Include="registerr.aspx.designer.cs">
+      <DependentUpon>registerr.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
