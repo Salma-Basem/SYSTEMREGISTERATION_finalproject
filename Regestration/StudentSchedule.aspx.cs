@@ -21,67 +21,67 @@ namespace Regestration
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
 
-            SqlConnection conn = new SqlConnection();
-            conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|database1.mdf";
+         //   SqlConnection conn = new SqlConnection();
+         //   conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|database1.mdf";
 
 
 
 
-            // lblMsg.Visible = false;
-            // gdvBooking.Visible = false;
+         //   // lblMsg.Visible = false;
+         //   // gdvBooking.Visible = false;
 
-            string username = "";
-            if (Request.Cookies["userInfo"] != null)
-                username = Request.Cookies["userInfo"].Values["usern"];
-            ViewState["U"] = username;
+         //   string username = "";
+         //   if (Request.Cookies["userInfo"] != null)
+         //       username = Request.Cookies["userInfo"].Values["usern"];
+         //   ViewState["U"] = username;
 
-            // Getting Flights
-            string strSelect = "SELECT * FROM [PERSON]  "
-         + " WHERE Email = '" + TXTE.Text + "' AND "
-         + " Phone = '" + TXTP.Text + "'";
-            // string strSelect = " SELECT * FROM [dbo].[Groups]"
+         //   // Getting Flights
+         //   string strSelect = "SELECT * FROM  [dbo].[SCHEDULE]  "
+         //+ " WHERE Group = '" + DDL.SelectedValue+ "' AND "
+         //+ " CourseName = '" + DropDownList2.SelectedValue+ "'";
+         //  // string strSelect = " SELECT * FROM [dbo].[Groups]"
 
-            SqlCommand cmdSelectF = new SqlCommand(strSelect, conn);
+         //   SqlCommand cmdSelectF = new SqlCommand(strSelect, conn);
 
-            //  Craeting Data Table
+         //   //  Craeting Data Table
 
-            DataTable tbl = new DataTable();
+         //   DataTable tbl = new DataTable();
 
-            conn.Open();
+         //   conn.Open();
 
-            tbl.Load(cmdSelectF.ExecuteReader());
-           // gdvSchedule.DataSource = tbl;
-           // gdvSchedule.DataBind();
+         //   tbl.Load(cmdSelectF.ExecuteReader());
+         //   gdvSchedule.DataSource = tbl;
+         //   gdvSchedule.DataBind();
 
-            if (gdv.Rows.Count != 0)
-            {
-                gdv.Visible = true;
-                btnRegister.Visible = true;
-                //txtName.Visible = true;
-                //lblPassengerName.Visible = true;
-                lblMsg.Text = "Select your schedule then Click Book";
+         //   if (gdvSchedule.Rows.Count != 0)
+         //   {
+         //       gdvSchedule.Visible = true;
+         //       btnRegister.Visible = true;
+         //       //txtName.Visible = true;
+         //       //lblPassengerName.Visible = true;
+         //       lblMsg.Text = "Select your schedule then Click Book";
 
 
-            }
-            else
-            {
-                lblMsg.Text = "No Available schedule , You May Change Your Preferences!!";
-                //    
-                btnRegister.Visible = false;
-                //txtPassengerName.Visible = false;
-                //lblPassengerName.Visible = false;
+         //   }
+         //   else
+         //   {
+         //       lblMsg.Text = "No Available schedule , You May Change Your Preferences!!";
+         //       //    
+         //       btnRegister.Visible = false;
+         //       //txtPassengerName.Visible = false;
+         //       //lblPassengerName.Visible = false;
 
-            }
+         //   }
 
-            string strBook = "Thanks for using Egypt Airlines. This is to confirm your booking of a seat for ";
-            ////    //+ txt.Text + " in our Flight " + FlightNo + " on " + FlightDate + "'\n'"
-            ////    //+ " Departure from  " + ddlDairport.SelectedValue + " at " + Dtime + "'\n'"
-            ////    //+ " Arrival to " + ddlAairport.SelectedValue + " at " + Atime + "'\n'"
-            ////    //+ "Your Reference No: " + RefNo;
+         //   string strBook = "Thanks for using Egypt Airlines. This is to confirm your booking of a seat for ";
+         //   ////    //+ txt.Text + " in our Flight " + FlightNo + " on " + FlightDate + "'\n'"
+         //   ////    //+ " Departure from  " + ddlDairport.SelectedValue + " at " + Dtime + "'\n'"
+         //   ////    //+ " Arrival to " + ddlAairport.SelectedValue + " at " + Atime + "'\n'"
+         //   ////    //+ "Your Reference No: " + RefNo;
 
             
-            conn.Close();
-           // sendEmail(strinmail, strBook);
+         //   conn.Close();
+         //  // sendEmail(strinmail, strBook);
         }
 
    
@@ -259,23 +259,89 @@ namespace Regestration
 
         protected void btnConfirm_Click(object sender, EventArgs e)
         {
-            gdvRegister.Visible = false;
-            gdv.Visible = false;
-            lblMsg.Visible = false;
+            //gdvRegister.Visible = false;
+            //gdvSchedule.Visible = false;
+            //lblMsg.Visible = false;
 
 
-            btnConfirm.Visible = false;
-            btnRegister.Visible = false;
-            //txtPassengerName.Visible = false;
-            //lblPassengerName.Visible = false;
-            lblCurrent.Visible = false;
-            //txtStartDate.Text = "";
-            //txtEndDate.Text = "";
+            //btnConfirm.Visible = false;
+            //btnRegister.Visible = false;
+            ////txtPassengerName.Visible = false;
+            ////lblPassengerName.Visible = false;
+            //lblCurrent.Visible = false;
+            ////txtStartDate.Text = "";
+            ////txtEndDate.Text = "";
         }
 
         protected void gdvSchedule_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+            SqlConnection conn = new SqlConnection();
+            conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|database1.mdf";
+
+
+
+
+            // lblMsg.Visible = false;
+            // gdvBooking.Visible = false;
+
+            string username = "";
+            if (Request.Cookies["userInfo"] != null)
+                username = Request.Cookies["userInfo"].Values["usern"];
+            ViewState["U"] = username;
+
+            // Getting Flights
+         //   string strSelect = "SELECT * FROM  [dbo].[SCHEDULE]  "
+         //+ " WHERE Group = '" + DDL.SelectedValue + "' AND "
+         //+ " CourseName = '" + DropDownList2.SelectedValue + "'";
+         //   // string strSelect = " SELECT * FROM [dbo].[Groups]"
+
+         //   SqlCommand cmdSelectF = new SqlCommand(strSelect, conn);
+
+         //   //  Craeting Data Table
+
+         //   DataTable tbl = new DataTable();
+
+            conn.Open();
+
+            //tbl.Load(cmdSelectF.ExecuteReader());
+            //gdvSchedule.DataSource = tbl;
+            //gdvSchedule.DataBind();
+
+            if (gdvSchedule.Rows.Count != 0)
+            {
+                gdvSchedule.Visible = true;
+                //btnRegister.Visible = true;
+                //txtName.Visible = true;
+                //lblPassengerName.Visible = true;
+                lblMsg.Text = "The Schedule you selected will be approved by the instructor";
+
+
+            }
+            else
+            {
+                lblMsg.Text = "No Available schedule , You May Change Your selected schedule!!";
+                //    
+                //btnRegister.Visible = false;
+                //txtPassengerName.Visible = false;
+                //lblPassengerName.Visible = false;
+
+            }
+
+            string strBook = "Thanks for using Egypt Airlines. This is to confirm your booking of a seat for ";
+            ////    //+ txt.Text + " in our Flight " + FlightNo + " on " + FlightDate + "'\n'"
+            ////    //+ " Departure from  " + ddlDairport.SelectedValue + " at " + Dtime + "'\n'"
+            ////    //+ " Arrival to " + ddlAairport.SelectedValue + " at " + Atime + "'\n'"
+            ////    //+ "Your Reference No: " + RefNo;
+
+
+            conn.Close();
+            // sendEmail(strinmail, strBook);
         }
     }
 }

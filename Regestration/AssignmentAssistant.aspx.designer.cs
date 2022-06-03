@@ -10,7 +10,7 @@
 
 namespace Regestration
 {
-    public partial class AssignmentAssistant
+    public partial class WebForm9
     {
     }
 }
